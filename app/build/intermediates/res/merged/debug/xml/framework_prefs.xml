@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Toast Animations" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/toast_animation_entries" android:title="Toast Animations UI Framework " android:key="animation_toast" android:summary="%s" android:defaultValue="0" android:entryValues="@array/toast_animation_values" />
+    <PreferenceCategory android:title="Back To Kill" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="LongPress Back" android:key="enable_back_kill" android:defaultValue="false" android:summaryOn="Kill app" android:summaryOff="Menu" />
+    <PreferenceCategory android:title="Reboot Options" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Power Mode" android:key="power" android:defaultValue="false" android:summaryOn="will be shown" android:summaryOff="Currently removed" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Restart Mode" android:key="reboot" android:defaultValue="false" android:summaryOn="will be shown" android:summaryOff="Currently removed" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Reboot Recovery Mode" android:key="reboot_recovery" android:defaultValue="false" android:summaryOn="will be shown" android:summaryOff="Currently removed" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Emergency Mode" android:key="power_emergency" android:defaultValue="false" android:summaryOn="will be shown" android:summaryOff="Currently removed" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Screencast Mode" android:key="screencast" android:defaultValue="false" android:summaryOn="will be shown" android:summaryOff="Currently removed" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Screenshot Mode" android:key="screenshot" android:defaultValue="false" android:summaryOn="will be shown" android:summaryOff="Currently removed" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Flashlight Mode" android:key="flashlight" android:defaultValue="false" android:summaryOn="will be shown" android:summaryOff="Currently removed" />
+
+    </PreferenceScreen>

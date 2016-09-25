@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="Volume Rocker Music Control" android:summary="Customize volume rocker action">
+        <PreferenceCategory android:title="Music Control" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Music Control" android:key="volbtn_music_controls" android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/volbtn_timeout_entries" android:title="Button Delay" android:key="volbtn_timeout" android:summary="%s" android:dependency="volbtn_music_controls" android:defaultValue="350" android:entryValues="@array/volbtn_timeout_values" />
+    </PreferenceScreen>
+</PreferenceScreen>

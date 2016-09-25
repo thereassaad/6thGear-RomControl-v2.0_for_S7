@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <PreferenceCategory android:title=" DPI Changes Reboot Required ">
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+            android:summary=""
+            android:title=" 560 DPI"
+            app:rebootOptions="imminent"
+            app:scriptFileName="dpi560.sh" />
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+            android:summary=""
+            android:title="640 DPI"
+            app:rebootOptions="imminent"
+            app:scriptFileName="dpi640.sh" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" Backup / Restore some USEFULL Stuff " >
+
+        <PreferenceScreen android:title="  Some Backup/Restore usefull SCRIPTS ">
+
+            <PreferenceScreen android:title="  WiFi">
+
+                <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                    app:scriptFileName="wifibackup.sh"
+                    android:summary=""
+                    android:title="Backup Wifi configurations" />
+
+                <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                    app:scriptFileName="wifirestore1.sh"
+                    app:rebootOptions="imminent"
+                    android:summary="Auto reboots to apply settings"
+                    android:title="Restore Wifi configurations" />
+
+            </PreferenceScreen>
+
+            <PreferenceScreen android:title="  SMS / MMS">
+
+                <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                    app:scriptFileName="mmssmsbk.sh"
+                    android:summary=""
+                    android:title="Backup SMS and MMS" />
+
+                <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                    app:scriptFileName="mmssmsrestore.sh"
+                    android:summary=""
+                    android:title="Restore SMS and MMS" />
+
+            </PreferenceScreen>
+
+            <PreferenceScreen android:title="  Contacts ">
+
+                <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                    app:scriptFileName="contactbk.sh"
+                    android:summary=""
+                    android:title="Backup Contacts" />
+
+                <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                    app:scriptFileName="contactrestore.sh"
+                    android:summary=""
+                    android:title="Restore Contacts" />
+
+            </PreferenceScreen>
+
+            <PreferenceScreen android:title="  Call Logs  ">
+
+                <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                    app:scriptFileName="calllogbk.sh"
+                    android:summary=""
+                    android:title="Backup Call logs" />
+
+                <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+                    app:scriptFileName="calllogrestore.sh"
+                    android:summary=""
+                    android:title="Restore Call logs" />
+
+            </PreferenceScreen>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+
+
+    <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:title="Caller Flashlight Settings" android:summary="Configure flashlight for Calls &amp; SMS" app:componentName="ru.evg.and.app.flashoncall/ru.evg.and.app.flashoncall.StartActivity" />
+
+
+
+    <PreferenceCategory android:title="Battery Calibration">
+
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="wipe battery stat after full charge" app:scriptFileName="batterycalibration.sh" android:summary="Note: Execute this script after fully charged to 100%" app:rebootOptions="imminent" />
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory android:title="  Wipe Hangouts  Data/Caches ">
+
+        <com.wubydax.romcontrol.v2.prefs.RunScriptPreference android:title="Wipe Hangouts cache - Automatic Reboot" android:summary="Clear Hangouts if not getting notifications" app:scriptFileName="hangouts_reset.sh" app:showConfirmDialog="false" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Browser Homepage" />
+
+
+
+    <com.wubydax.romcontrol.v2.prefs.RunScriptPreference
+        android:summary="Set HomePage default as Google"
+        android:title="Set Google as Home"
+        app:scriptFileName="delete_browser_data.sh"
+        app:packageNameToKill=""/>
+
+
+
+
+
+
+
+
+    </PreferenceScreen>
+
+
+
+

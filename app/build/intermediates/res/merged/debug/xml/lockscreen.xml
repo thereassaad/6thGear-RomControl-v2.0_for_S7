@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title=" Lockscreen Clock/Date Colorized " />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show seconds in hours" android:key="lock_seconds" android:defaultValue="0" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Colorized Date Text" android:key="kg_date_color" android:summary="Choose a color" android:defaultValue="\#ff1d4e78" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="false" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Colorized Hours" android:key="kg_clock_hours_color" android:summary="Choose a color" android:defaultValue="\#ff1d4e78" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="false" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Colorized Minutes" android:key="kg_clock_minutes_color" android:summary="Choose a color" android:defaultValue="\#ff1d4e78" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="false" hexValue="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Colorized Seconds" android:key="kg_clock_second_color" android:summary="Choose a color" android:defaultValue="\#ff1d4e78" app:packageNameToKill="com.android.systemui" app:isSilent="false" alphaSlider="false" hexValue="true" />
+    <PreferenceCategory android:title="Lockscreen Font Style" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom Font Style" android:key="use_lockscreen_clock_font_style" android:defaultValue="false" android:summaryOn="Custom font enabled" android:summaryOff="Disabled" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/lockscreen_font_style_entries" android:title="Lockscreen Clock Font Style" android:key="lockscreen_clock_font_style" android:dependency="use_lockscreen_clock_font_style" android:entryValues="@array/lockscreen_font_style_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    <PreferenceCategory android:title=" Lockscreen Rotation " />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Lockscreen Rotation" android:key="lockscreen_rotate" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    <PreferenceCategory android:title="Ambient Display for Screen Off">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Ambient Display" android:key="doze_toggle" android:defaultValue="false" android:summaryOn="Feature enabled \n> Ambient Display is the pulsing display effect that appears when the screen is off and notifications are recieved." android:summaryOff="Feature disabled \n> Ambient Display is the pulsing display effect that appears when the screen is off and notifications are recieved." />
+    </PreferenceCategory>
+</PreferenceScreen>

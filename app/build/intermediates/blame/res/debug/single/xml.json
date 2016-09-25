@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\ui_prefs.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\ui_prefs.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\phone_prefs.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\phone_prefs.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\virtual_button.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\virtual_button.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\backup_restore_prefs.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\backup_restore_prefs.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\carrier_mod.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\carrier_mod.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\framework_prefs.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\framework_prefs.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\lockscreen.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\lockscreen.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\notification_panel_prefs.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\notification_panel_prefs.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\sound_prefs.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\sound_prefs.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\addons_prefs.xml",
+        "source": "C:\\AndroidStudio\\6thGear-RomControl-v2.0-master\\app\\src\\main\\res\\xml\\addons_prefs.xml"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title=" Vitrual Lock Button " />
+    <PreferenceScreen android:title=" Left / Center / Right ">
+        <PreferenceCategory android:title="         Left      " />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="leftTask" android:key="cocoyaya_leftcornertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="leftHome" android:key="cocoyaya_leftcornerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="LeftLock" android:key="cocoyaya_leftcornerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <PreferenceCategory android:title="                  Center    " />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Centerlock" android:key="cocoyaya_centercornerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="CenterTask" android:key="cocoyaya_centertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="CenterHome" android:key="cocoyaya_centerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <PreferenceCategory android:title="                             Right     " />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Righthome" android:key="cocoyaya_rightcornerhome" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="RightRecent" android:key="cocoyaya_rightcornertask" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Rightlock" android:key="cocoyaya_rightcornerlock" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+    </PreferenceScreen>
+</PreferenceScreen>
